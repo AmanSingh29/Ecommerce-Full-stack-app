@@ -5,7 +5,7 @@ import { useAuth } from "../context/auth";
 import { useCart } from "../context/cart";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const Payment = () => {
   const [auth] = useAuth();

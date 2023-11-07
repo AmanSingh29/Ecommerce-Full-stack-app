@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 import { useNavigate, useParams } from "react-router-dom";
 import { useCart } from "../context/cart";
 import { toast } from "react-toastify";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const ProductByCat = () => {
   const [products, setProducts] = useState([]);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import AdminMenu from "../../components/layout/AdminMenu";
 import Layout from "../../components/layout/Layout";
 import { Link } from "react-router-dom";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const Products = () => {
   const [products, setProducts] = useState([]);

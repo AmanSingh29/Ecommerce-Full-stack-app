@@ -3,7 +3,7 @@ import Layout from "../../components/layout/Layout";
 import UserMenu from "../../components/layout/UserMenu";
 import { useAuth } from "../../context/auth";
 import { toast } from "react-toastify";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const Profile = () => {
   const [auth, setAuth] = useAuth();

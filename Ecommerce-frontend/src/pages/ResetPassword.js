@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import { toast } from "react-toastify";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const ResetPassword = () => {
   const navigate = useNavigate();

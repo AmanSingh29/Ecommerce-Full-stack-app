@@ -6,7 +6,7 @@ import AdminMenu from "../../components/layout/AdminMenu";
 import { useNavigate, useParams } from "react-router-dom";
 import { Select } from "antd";
 const { Option } = Select;
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const SingleProduct = () => {
   const navigate = useNavigate();

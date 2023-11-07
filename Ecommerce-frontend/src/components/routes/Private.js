@@ -3,7 +3,7 @@ import { useAuth } from "../../context/auth";
 import { Outlet } from "react-router-dom";
 import axios from "axios";
 import Spinner from "../Spinner";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 export default function PrivateRoute() {
   const [ok, setOk] = useState(false);

@@ -4,7 +4,7 @@ import { useSearch } from "../context/Search";
 import { useCart } from "../context/cart";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const SearchPage = () => {
   const [values] = useSearch();

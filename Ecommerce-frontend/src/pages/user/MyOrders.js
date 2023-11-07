@@ -4,7 +4,7 @@ import UserMenu from "../../components/layout/UserMenu";
 import { useAuth } from "../../context/auth";
 import moment from "moment";
 import { useNavigate } from "react-router-dom";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const MyOrders = () => {
   const [auth] = useAuth();

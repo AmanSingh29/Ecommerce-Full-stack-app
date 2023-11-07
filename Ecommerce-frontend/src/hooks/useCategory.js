@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 export const useCategory = () => {
   const [category, setCategory] = useState([]);

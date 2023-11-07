@@ -4,7 +4,7 @@ import AdminMenu from "../../components/layout/AdminMenu";
 import { useAuth } from "../../context/auth";
 import { toast } from "react-toastify";
 import CategoryForm from "../../components/form/categoryForm";
-const port = "http://localhost:5000";
+const port = "https://ecommerce-hch9.onrender.com";
 
 const CreateCategory = () => {
   const [categories, setCategories] = useState([]);
