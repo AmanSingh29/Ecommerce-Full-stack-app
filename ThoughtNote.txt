@@ -1,0 +1,51 @@
+==================== To Access Admin =================
+  
+  EMAIL : admin@admin.com
+  PASSWORD: admin
+
+======================================================
+
+This is full stack ecommerce website where you you can perform many operations.
+
+======================== Details Features ===========================
+===> In this website there is home page where all the products will appear
+you can see the details of any product and addd it to cart.
+===> There is a pagination functionality on the home page where you can change pages of the products.
+===> On home page there is a filter functionality by which you can filter products by their categories or by price range.
+===> There is search box on the navbar where you can search product by their name or by keywords which are in the products's description.
+===> In Navbar there is a categories dropdown link in it you can select any category to search products.
+===> In navbar there is a cart logo by which you can go to the cart page there is a number of items which is in the cart shown next to this logo.
+===> On Cart Page thete is a list of items which a user added to the cart.
+===> User can delete products from the cart by the delete option.
+===> To checkout user can click the checkout button to go to the details page.
+===> If user is not login he has to login before checkout.
+===> After checkout user will redirect on check user Details page where all details of user will appear.
+===> If user want to change shipping details he can do it by clicking on update details button.
+===> If details is set user can go to the payment page.
+===> On payment page all detailsof products which user have to bought appear an user can pay using any card.
+===> After payment all the items from the cart removed automatically.
+
+======================= For Admin ========================
+
+===> On navbar there is a logined admin name appear which is a dropdown link.
+===> In which two options will appear logout and dashboard.
+===> Admin can logout from the logout option.
+===> By the dashboard option admin will redirect to the admin's dashboard.
+===> By the dashboard admin can create category, update category, delete category.
+===> Admin can ceate product, update product, delete product.
+===> Admin can see all products on his website.
+===> Admin can change the status of user's all orders.
+
+======================= For User ========================
+
+===> On navbar there is a logined user name appear which is a dropdown link.
+===> In which two options will appear logout and dashboard.
+===> User can logout from the logout option.
+===> By the dashboard option user will redirect to the user's dashboard.
+===> By the dashboard user can update his profile.
+===> User can see his all orders.
+
+========================== Forgot Password Reset ====================
+
+===> on registration user will asked a secret answer.
+===> With the help of that answer user can change his Password if he forgots it.
